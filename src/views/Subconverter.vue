@@ -478,10 +478,12 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "自建后端": "https://087iu0np-subcvt.hf.space",
           "肥羊增强型后端【vless reality+anytls】": "https://api.v1.mk",
           "肥羊备用后端【vless reality+anytls】": "https://url.v1.mk",
         },
         backendOptions: [
+          {value: "https://087iu0np-subcvt.hf.space"},
           {value: "https://api.v1.mk"},
           {value: "https://url.v1.mk"},
         ],
@@ -1416,6 +1418,7 @@ export default {
   }
 };
 </script>
+
 
 
 
